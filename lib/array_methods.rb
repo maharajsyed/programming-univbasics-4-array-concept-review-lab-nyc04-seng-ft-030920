@@ -25,10 +25,11 @@ def find_max_value(array)
   current_max_value = array[0]
   while index < array.length do
       if array[index] > current_max_value
-      return current_max_value
+          current_max_value = array[index]
       end
-    index += 1
+      index += 1
   end
+  return current_max_value
 end
       
       
