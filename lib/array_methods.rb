@@ -8,12 +8,12 @@
 # end
 
 def find_element_index(array, value_to_find)
-  counter = 0
-    while counter < array.length do
-      if array[index] == value_to_find
-      return index
-      end
-      counter += 1
+    index = 0
+    while index < array.length do
+        if array[index] == value_to_find
+        return index
+        end
+      index += 1
     end
   return nil
 end
