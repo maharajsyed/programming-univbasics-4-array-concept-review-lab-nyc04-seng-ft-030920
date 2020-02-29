@@ -32,7 +32,7 @@ def find_max_value(array)
   return current_max_value
 end
       
-      
+
     
 end
 
